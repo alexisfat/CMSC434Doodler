@@ -12,6 +12,7 @@ You can:
 
 # References
 * Jonf's HelloWorld Example
+* Jonf's Custom View Example
 * Android's Dev Pages 
 * Stack Overflow for how to use Toggle Button - http://stackoverflow.com/questions/11278507/android-widget-switch-on-off-event-listener
 
