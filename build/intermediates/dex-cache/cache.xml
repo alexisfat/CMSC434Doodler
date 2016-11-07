@@ -3,111 +3,75 @@
 
     <item
         is-multidex="true"
-        jar="/Users/umiacs/AndroidStudioProjects/CMSC434Doodler/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/umiacs/AndroidStudioProjects/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.0_2693953665d031e11c8ef7894a601766ec616122/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/umiacs/AndroidStudioProjects/CMSC434Doodler/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="/Users/umiacs/AndroidStudioProjects/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_36e656e7cc09704aa3ca22588abbd8fb6d7cfe56/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/umiacs/AndroidStudioProjects/CMSC434Doodler/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="/Users/umiacs/AndroidStudioProjects/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_5dba3c41b5e72cbb2a36124db45e572bc80d6bef/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/umiacs/AndroidStudioProjects/CMSC434Doodler/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ea36f84e5c7537483c43fe922cf78672fd1da843">
-        <dex dex="/Users/umiacs/AndroidStudioProjects/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_26d59fdf6df4654ddd6e170b6894b6562d45ae93/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/umiacs/AndroidStudioProjects/CMSC434Doodler/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="/Users/umiacs/AndroidStudioProjects/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.0_a09446a6b4da4c6823d5d4c71c25203b864fb61c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/umiacs/AndroidStudioProjects/CMSC434Doodler/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="/Users/umiacs/AndroidStudioProjects/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.0_fe0cecba76029de0cc97493798fd7a2a59cefc25/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/umiacs/AndroidStudioProjects/CMSC434Doodler/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="/Users/umiacs/AndroidStudioProjects/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.0_e5e8e1200569759077f4adc6eaeb2dd65bda44be/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/umiacs/AndroidStudioProjects/CMSC434Doodler/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="/Users/umiacs/AndroidStudioProjects/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_a45a218800a855234058f0a3d019520054bf9bed/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/umiacs/AndroidStudioProjects/CMSC434Doodler/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jar="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="/Users/umiacs/AndroidStudioProjects/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.0_a2232b5d3e6c5b145be8145638237ae0ce355bc3/classes.dex" />
+        <dex dex="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.0_748b469402c1e5dbd5416ee1ccf1dffd2a0f108c/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/umiacs/AndroidStudioProjects/CMSC434Doodler/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jar="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_2ddf0b7090ad9399594aff8c31dc57988df96a19/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.0_90d4643f25a046d3651fcc016e1a84b02a15f165/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="/Users/umiacs/AndroidStudioProjects/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.0_483481ad3857f315f28272508aa2f743c33af9b6/classes.dex" />
+        <dex dex="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.0_d973f8811edcb870fc1ee7002989a4d799b08f1d/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/umiacs/AndroidStudioProjects/CMSC434Doodler/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jar="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="/Users/umiacs/AndroidStudioProjects/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_ab23219537e1b811013766d2357f05cc1c5c6f65/classes.dex" />
+        <dex dex="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_7efe08fbd41bf69b997bfb6418a8b6e795563659/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/umiacs/AndroidStudioProjects/CMSC434Doodler/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jar="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_7bf41c1f01b1f50ce8f1848611670e9a87311ce7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="/Users/umiacs/AndroidStudioProjects/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.0_f5d66c4d8dc39eb54fe6b55496c969e5e03524b8/classes.dex" />
+        <dex dex="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.0_b2bbbbb208694909503cb74bc0542559057c034e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="77437ac2b455ad0bb61c41fe732081cc7493ff75">
+        <dex dex="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_855d80477d33fa34cdb2c4d35bb795257171eec1/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -116,43 +80,79 @@
         optimize="true"
         revision="25.0.0"
         sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="/Users/umiacs/AndroidStudioProjects/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_7cbf17e4ec79a24eb661e1b96221928606e2102b/classes.dex" />
+        <dex dex="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_7cbf17e4ec79a24eb661e1b96221928606e2102b/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/umiacs/AndroidStudioProjects/CMSC434Doodler/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="/Users/umiacs/AndroidStudioProjects/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.0_79fe1b1c060c402abeaafaaf812ec42dc323bac2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/umiacs/AndroidStudioProjects/CMSC434Doodler/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jar="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="/Users/umiacs/AndroidStudioProjects/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.0_89d04d78108fa4b661112e8bdf876cc6918e5c8b/classes.dex" />
+        <dex dex="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.0_19fcda56a358d5e1ab4b02816a1bcb66c996847b/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/umiacs/AndroidStudioProjects/CMSC434Doodler/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="8b6e104658c1142473a11ccc451061c89a4659c8">
-        <dex dex="/Users/umiacs/AndroidStudioProjects/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b2091f1a9d1a11684073f32fa886462b942fd086/classes.dex" />
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_a19dcb1f9f2f72db13878f4a7f930a800ed6cb7b/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/umiacs/AndroidStudioProjects/CMSC434Doodler/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jar="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/umiacs/AndroidStudioProjects/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_c5936e79af1dd05ea800c4787212aa649c8bfa3c/classes.dex" />
+        <dex dex="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_ed3ca36082e52f31123d27ea59c4442b5b292850/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.0_e5a38be063a55e6608904f29d226545b9f50a991/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.0_191cc29453230f7dcd992e3b07ea367d29adcf32/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.0_2bc317b6dafd60ab65c68107be5f07c9c4c559a4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bd76b4cfa81bb68b68d0dc5038c0fcfae8640477">
+        <dex dex="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_95ff227f10d4b62b12c8108c7b8845ead2ad37a9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.0_e8ce08c4115bb377fd0090873d929cd76973c7af/classes.dex" />
     </item>
 
 </items>

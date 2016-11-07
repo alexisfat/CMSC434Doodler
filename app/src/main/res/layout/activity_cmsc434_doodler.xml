@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_cmsc434_doodler"
     android:layout_width="match_parent"
@@ -8,9 +8,184 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.umiacs.cmsc434doodler.CMSC434Doodler">
+    tools:context="com.example.umiacs.cmsc434doodler.CMSC434Doodler"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <GridLayout
+        android:layout_width="340dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="save"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/saveButton"
+            android:layout_row="0"
+            android:layout_column="2" />
+        <Button
+            android:text="Clear"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/clearButton"
+            android:layout_row="0"
+            android:layout_column="3" />
+
+        <Button
+            android:text="undo"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/undoButton"
+            android:layout_row="0"
+            android:layout_column="0" />
+
+        <!--<Button
+            android:text="redo"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/redoButton"
+            android:layout_row="0"
+            android:layout_column="2" />-->
+
+    </GridLayout>
+
 
     <com.example.umiacs.cmsc434doodler.DoodleView
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-</RelativeLayout>
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_height="60dp"
+        android:layout_weight="0.89"
+        android:id="@+id/doodleCanvas"/>
+
+    <GridLayout
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10">
+
+        <TextView
+            android:text="Opacity"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/opacityTextView"
+            android:layout_row="2"
+            android:layout_column="0"/>
+
+        <SeekBar
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/opacitySeekBar"
+        android:layout_row="3"
+        android:layout_column="0"
+            android:max="100"
+            android:progress="100" />
+
+        <TextView
+            android:text="Green"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewGreen"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:textAlignment="textEnd" />
+
+        <SeekBar
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/colorSliderGreen"
+            android:max="255"
+            android:progress="255"
+            android:layout_row="3"
+            android:layout_column="2"/>
+
+        <TextView
+            android:text="Blue"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewBlue"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:layout_row="4"
+            android:layout_column="2"
+            android:textAlignment="textEnd" />
+
+        <SeekBar
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/colorSliderBlue"
+            android:max="255"
+            android:progress="255"
+            android:layout_row="5"
+            android:layout_column="2"/>
+
+        <TextView
+            android:text="Brush Tools"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/brushTools"
+            android:layout_row="8"
+            android:layout_column="0"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal|bold"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:text="Color"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/color"
+            android:layout_row="8"
+            android:layout_column="2"
+            android:textAlignment="textEnd"
+            android:textStyle="normal|bold"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:text="Red"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewTed"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:textAlignment="textEnd"/>
+
+        <SeekBar
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/colorSliderRed"
+        android:max="255"
+        android:progress="255"
+            android:layout_row="1"
+            android:layout_column="2"/>
+
+        <SeekBar
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/brushSizeSeekBar"
+            android:layout_row="1"
+            android:layout_column="0"/>
+
+        <TextView
+        android:text="Brush Size"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/brushSizeTextView"
+        android:layout_row="0"
+        android:layout_column="0" />
+
+        <Switch
+            android:text="Eraser"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/eraserSwitch"
+            android:layout_row="5"
+            android:layout_column="0" />
+
+    </GridLayout>
+
+    <!-- android:layout_alignBottom="@+id/canvas"-->
+
+
+</LinearLayout>
