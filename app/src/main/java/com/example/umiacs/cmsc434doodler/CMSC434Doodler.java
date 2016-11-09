@@ -1,19 +1,14 @@
 package com.example.umiacs.cmsc434doodler;
 
 import android.content.Context;
-import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CompoundButton;
-import android.widget.ImageButton;
-import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 import android.widget.Switch;
-import android.widget.TextView;
 import android.widget.Toast;
 
 public class CMSC434Doodler extends AppCompatActivity  implements CompoundButton.OnCheckedChangeListener {
@@ -60,12 +55,13 @@ public class CMSC434Doodler extends AppCompatActivity  implements CompoundButton
 
                 @Override
                 public void onStopTrackingTouch(SeekBar seekBar) {
-                /*Context context = getApplicationContext();
-                CharSequence text = "Your progress is " + seekBar.getProgress();
-                int duration = Toast.LENGTH_SHORT;
+                    Context context = getApplicationContext();
+                    CharSequence text = "Color: R: " + rProgress + " G: " + gProgress + " B: "
+                            + bProgress + " Alpha: "+opacity;
+                    int duration = Toast.LENGTH_SHORT;
 
-                Toast toast = Toast.makeText(context, text, duration);
-                toast.show();*/
+                    Toast toast = Toast.makeText(context, text, duration);
+                    toast.show();
                 }
             });
 
@@ -84,12 +80,13 @@ public class CMSC434Doodler extends AppCompatActivity  implements CompoundButton
 
                 @Override
                 public void onStopTrackingTouch(SeekBar seekBar) {
-                /*Context context = getApplicationContext();
-                CharSequence text = "Your progress is " + seekBar.getProgress();
-                int duration = Toast.LENGTH_SHORT;
+                    Context context = getApplicationContext();
+                    CharSequence text = "Color: R: " + rProgress + " G: " + gProgress + " B: "
+                            + bProgress + " Alpha: "+opacity;
+                    int duration = Toast.LENGTH_SHORT;
 
-                Toast toast = Toast.makeText(context, text, duration);
-                toast.show();*/
+                    Toast toast = Toast.makeText(context, text, duration);
+                    toast.show();
                 }
             });
 
@@ -108,12 +105,13 @@ public class CMSC434Doodler extends AppCompatActivity  implements CompoundButton
 
                 @Override
                 public void onStopTrackingTouch(SeekBar seekBar) {
-              /*  Context context = getApplicationContext();
-                CharSequence text = "Your progress is " + seekBar.getProgress();
+                Context context = getApplicationContext();
+                CharSequence text = "Color: R: " + rProgress + " G: " + gProgress + " B: "
+                        + bProgress + " Alpha: "+opacity;
                 int duration = Toast.LENGTH_SHORT;
 
                 Toast toast = Toast.makeText(context, text, duration);
-                toast.show();*/
+                toast.show();
                 }
             });
 
@@ -131,6 +129,13 @@ public class CMSC434Doodler extends AppCompatActivity  implements CompoundButton
                 @Override
                 public void onStopTrackingTouch(SeekBar seekBar) {
                     doodle.changeOpacity(opacity);
+                    Context context = getApplicationContext();
+                    CharSequence text = "Color: R: " + rProgress + " G: " + gProgress + " B: "
+                            + bProgress + " Alpha: "+opacity;
+                    int duration = Toast.LENGTH_SHORT;
+
+                    Toast toast = Toast.makeText(context, text, duration);
+                    toast.show();
                 }
 
             });
@@ -200,12 +205,12 @@ public class CMSC434Doodler extends AppCompatActivity  implements CompoundButton
         if(isChecked) {
             //   erase.setText("ON");  //To change the text near to switch
             DoodleView.erase = true;
-            doodle.draw();
+            doodle.setPaintProperties();
             //}
         } else {
             //erase.setText("OFF");   //To change the text near to switch
             DoodleView.erase = false;
-            doodle.draw();
+            doodle.setPaintProperties();
         }
     }
 }

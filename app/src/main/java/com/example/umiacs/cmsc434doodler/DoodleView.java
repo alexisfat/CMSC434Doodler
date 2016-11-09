@@ -18,8 +18,8 @@ import java.util.ArrayList;
  */
 
 class DoodleView extends View {
-    private Paint _paintDoodle = new Paint();
-    private Path _path = new Path();
+    private Paint _paintDoodle;// = new Paint();
+    private Path _path; //= new Path();
     private ArrayList<Path> _paths;
     private ArrayList<Paint> _paintDoodles;
    // private ArrayList<Path> _allPaths;
@@ -69,18 +69,18 @@ class DoodleView extends View {
         _paintDoodle.setAlpha(_opacity);
     }
 
-    public void draw() {
+    public void setPaintProperties() {
         if(!erase) {
-            _paintDoodle = new Paint();
-            _path = new Path();
+           // _paintDoodle = new Paint();
+           // _path = new Path();
             _paintDoodle.setAntiAlias(true);
             _paintDoodle.setStyle(Paint.Style.STROKE);
             _paintDoodle.setColor(_color);
             _paintDoodle.setStrokeWidth(_brushSize);
             _paintDoodle.setAlpha(_opacity);
         } else {
-            _paintDoodle = new Paint();
-            _path = new Path();
+            //_paintDoodle = new Paint();
+            //_path = new Path();
             _paintDoodle.setAntiAlias(true);
             _paintDoodle.setStyle(Paint.Style.STROKE);
             _paintDoodle.setARGB(255, 249, 249, 249);
@@ -139,21 +139,22 @@ class DoodleView extends View {
 
     public void changeOpacity(int op){
         _opacity = Math.abs(255-op);
-        _paintDoodle.setStyle(Paint.Style.STROKE);
-        draw();
+        _opacity = op;
+       // _paintDoodle.setStyle(Paint.Style.STROKE);
+        setPaintProperties();
 
     }
 
     public void changeBrushSize(float brush){
         _brushSize = brush;
-        _paintDoodle.setStyle(Paint.Style.STROKE);
-        draw();
+       // _paintDoodle.setStyle(Paint.Style.STROKE);
+        setPaintProperties();
     }
 
     public void changeColor(int color){
         _color = color;
-        _paintDoodle.setStyle(Paint.Style.STROKE);
-        draw();
+       // _paintDoodle.setStyle(Paint.Style.STROKE);
+        setPaintProperties();
     }
 
     public void undo(){

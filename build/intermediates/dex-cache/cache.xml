@@ -70,7 +70,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="77437ac2b455ad0bb61c41fe732081cc7493ff75">
+        sha1="81350d764f839c314a7960b183dcddff14103953">
         <dex dex="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_855d80477d33fa34cdb2c4d35bb795257171eec1/classes.dex" />
     </item>
     <item
@@ -142,7 +142,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="bd76b4cfa81bb68b68d0dc5038c0fcfae8640477">
+        sha1="2b2c0fdf2992cdc80c2f0d6331bee802fee79fc3">
         <dex dex="/Users/umiacs/MEGA/OneDrive/Documents/College/Fall 2016/CMSC434/AndroidStudio/CMSC434Doodler/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_95ff227f10d4b62b12c8108c7b8845ead2ad37a9/classes.dex" />
     </item>
     <item
