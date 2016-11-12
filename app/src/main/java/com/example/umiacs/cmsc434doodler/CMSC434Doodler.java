@@ -18,10 +18,6 @@ public class CMSC434Doodler extends AppCompatActivity  implements CompoundButton
     private DoodleView doodle;
     private SeekBar redSeekBar, blueSeekBar, greenSeekBar, opacitySeekBar, brushSizeSeekBar;
     private Button clear, undo, save;
-  //  private Switch erase;
-
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
@@ -36,11 +32,17 @@ public class CMSC434Doodler extends AppCompatActivity  implements CompoundButton
             brushSizeSeekBar = (SeekBar) findViewById(R.id.brushSizeSeekBar);
             undo = (Button) findViewById(R.id.undoButton);
             clear = (Button) findViewById(R.id.clearButton);
-            // redo = (Button) findViewById(R.id.redoButton);
-            // erase = (Button) findViewById(R.id.eraserButton);
             save = (Button) findViewById(R.id.saveButton);
             erase = (Switch) findViewById(R.id.eraserSwitch);
             erase.setOnCheckedChangeListener(this);
+
+            //set defaults
+            redSeekBar.setProgress(0);
+            blueSeekBar.setProgress(0);
+            greenSeekBar.setProgress(0);
+            brushSizeSeekBar.setProgress(2);
+            opacitySeekBar.setProgress(255);
+
             redSeekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
 
                 @Override
@@ -174,12 +176,6 @@ public class CMSC434Doodler extends AppCompatActivity  implements CompoundButton
                 }
             });
 
-         /* redo.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    doodle.redo();
-                }
-            });*/
             save.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -203,13 +199,11 @@ public class CMSC434Doodler extends AppCompatActivity  implements CompoundButton
     @Override
     public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
         if(isChecked) {
-            //   erase.setText("ON");  //To change the text near to switch
             DoodleView.erase = true;
             doodle.setPaintProperties();
             //}
         } else {
-            //erase.setText("OFF");   //To change the text near to switch
-            DoodleView.erase = false;
+
             doodle.setPaintProperties();
         }
     }
